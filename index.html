@@ -6,21 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
 <body>
     <nav>
         <div class="menu">
-            <img class="logo" src="/images/Behance-Logo-2005-1080x612.png" alt="logoBehance">
-            <div>
+            <div class="menu-izq">
+                <img class="logo" src="/images/Behance-Logo-2005-1080x612.png" alt="logoBehance">
                 <a class="link-nav" href="./Descubrir.html">Descubrir</a>
                 <a class="link-nav" href="./Transmisiones.html">Transmisiones en directo</a>
                 <a class="link-nav" href="./Contratar.html">Contratar</a>
                 <a class="link-nav" href="./Vacantes.html">Vacantes</a>
             </div>
             <form action="">
-                <input class="boton-search" type="search" name="buscar">
+                <div class="search">
+                    <input class="boton-search" type="search" placeholder="Buscar...">
+                    <div class="abs"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
             </form>
             <div class="botones-ingreso">
                 <button class="boton-iniciar">Iniciar sesión</button>
@@ -31,17 +37,21 @@
     </nav>
     <div class="grid-container">
         <div class="item1"></div>
-        <div class="item2"></div>
+        <div class="item2">
+            <img class="perfil" src="/images/8988507.5445f9c522e0f.jpg" alt="perfil">
+            <h3>Marcin Minor</h3>
+            <h4>Painter, Illustrator, Educator and Therapist SI, Owner's MANUFAKTURA PARABUCH</h4>
+            <button class="boton-seguir">Seguir</button>
+            <button class="boton-mensaje">Mensaje</button>
+        </div>
+
         <div class="item3 grid-container-gallery">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
+            <div class="grid-item" style="background-image: url(/images/image1.webp)"></div>
+            <div class="grid-item" style="background-image: url(/images/image2.webp)"></div>
+            <div class="grid-item" style="background-image: url(/images/image3.webp)"></div>
+            <div class="grid-item" style="background-image: url(/images/image4.webp)"></div>
+            <div class="grid-item" style="background-image: url(/images/image5.webp)"></div>
+            <div class="grid-item" style="background-image: url(/images/image6.webp)"></div>
         </div>
     </div>
     </div>
